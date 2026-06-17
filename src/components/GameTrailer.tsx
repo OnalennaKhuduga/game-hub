@@ -15,8 +15,8 @@ const GameTrailer = ({ gameId }: Props) => {
     <video
       src={first.data[480]}
       poster={data.results[0].preview}
-      controls
       autoPlay
+      loop
     />
   ) : null;
 };
